@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="cmodule" class="login-page">
+
+<!-- Mirrored from westglobalcourier.com/livechat/index.php/login by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Dec 2017 14:01:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Login -  Admin Panel</title>
+<meta name="description" content="Chatbull - Live Chat Support Plugin">
+<meta name="keywords" content="Live chat support, plugin, support, customers, visitors, potential customers, website, admin, agents, multiple platform, mobile application, desktop application, web application, one time investment, convert visitors to sales, monetize website, communicate, increase revenue, increase sale">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,400italic,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
+        
+<link rel="stylesheet" type="text/css" href="../assets/cmodule/css/font-awesome.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../assets/cmodule/css/bootstrap.min.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../assets/angular-bootstrap-colorpicker-master/css/colorpicker.min.css" />
+<link rel="stylesheet" type="text/css" href="../assets/scrollbar-plugin/css/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" type="text/css" href="../assets/cmodule/css/cmodule-core.css" />
+
+<!--[if lt IE 9]>
+      <script src="https://westglobalcourier.com/livechat/assets/cmodule/js/html5shiv.min.js"></script>
+      <script src="https://westglobalcourier.com/livechat/assets/cmodule/js/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    var site_url = '../index.html';
+    var theme_url = '../assets/cmodule/index.html';
+    var theme_name = 'cmodule';
+        var project_name = '/livechat';
+</script>
+
+<script type="text/javascript" src="../assets/cmodule/js/jquery.js"></script>
+<script type="text/javascript" src="../assets/cmodule/js/en/lang.js"></script>
+<script type="text/javascript" src="../assets/cmodule/js/all.min.js"></script>
+<script type="text/javascript" src="../assets/scrollbar-plugin/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="../assets/cmodule/js/app/scrollbar-function.js"></script>
+<script> var cmodule = {"user":null,"settings":{"is_tag_required":"no","enable_feedback_form":"yes","theme":"bubbles_with_avatar","window_position":"right","chat_status":"enable","chat_mode":"online","text_color":"#fff","background_color":"#3acf8c","welcome_message":"Hello Guest! How can I help you today?","waiting_message":"Our agents are already engaged with some customers. Please be patient. Someone will be here in a jiffy!","offline_heading_message":"Sorry, no agent currently online. Please leave a message & we will contact you soon.","offline_submission_message":"Thank you for contacting us! we will get back to you within 24 hours.","feedback_heading_message":"Your opinion matters a lot. Kindly leave your feedback.","feedback_submission_message":"Your Feedback has been sent successfully.","offline_form_title":"We are offline now","online_form_title":"Live Chat - West Global","chat_start_title":"We are available now","title_color":"#ffffff","can_reply_attended_orequests":"yes","default_avatar":"https:\/\/westglobalcourier.com\/livechat\/uploads\/profile\/thumb\/1-1510155440.png","send_chat_transcript_to_visitor":"yes","site_name":"West Global Logistics","site_email":"Info@westglobalcourier.com","show_depaertment_selection_box":"yes","site_lived_year":"2017","licence_key":"22220000003334453","ios_notification_url":"","licence_validation_url":"http:\/\/bdtoolz.net","invalid_domain_url":"Domain Url is not valid.","current_version":"2.0","update_message":"","is_update_available":"","site_logo":"https:\/\/westglobalcourier.com\/livechat\/assets\/cmodule\/images\/logo.png"}}</script>
+
+<link rel="shortcut icon" href="login.html" type="image/x-icon">
+<link rel="icon" href="login.html" type="image/x-icon">
+
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/cmodule/icon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../assets/cmodule/icon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/cmodule/icon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../assets/cmodule/icon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="login.html">
+<link rel="apple-touch-icon" sizes="120x120" href="login.html">
+<link rel="apple-touch-icon" sizes="144x144" href="login.html">
+<link rel="apple-touch-icon" sizes="152x152" href="../assets/cmodule/icon/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="../assets/cmodule/icon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="../assets/cmodule/icon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="../assets/cmodule/icon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="../assets/cmodule/icon/manifest.json">
+<link rel="mask-icon" href="../assets/cmodule/icon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="https://westglobalcourier.com/livechat/assets/cmodule/icon/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff"></head>
+<body ng-controller="BodyController" class="" id="mainContainer" style=" display: none;">
+                            <div class="login-section">
+  <div class="login-container">
+    <div class="login-content">
+      <div class="login-form">
+        <form accept-charset="utf-8" action="https://westglobalcourier.com/livechat/index.php/login" method="post">
+          <fieldset>
+            <div class="form-group">
+              <input type="email" name="email" id="email" value="" class="form-control" placeholder="Email">
+               </div>
+            <div class="form-group">
+              <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+               </div>
+            <div class="checkbox">
+                            <label>
+                <input type="checkbox" name="remember_me"  />
+                Remember me</label>
+            </div>
+            <div class="form-group"><a href="admin/forget_password.html" title="Reset Password">Forgot your password</a></div>
+            <input type="submit" value="Login" class="btn btn-block btn-lg btn-primary">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="../assets/cmodule/js/angular.min.js"></script>
+<script src="../assets/angular-bootstrap-colorpicker-master/js/bootstrap-colorpicker-module.min.js"></script>
+<script src="../assets/checklist-model/checklist-model.js"></script>
+<script src="../assets/cmodule/js/sanitize.js"></script>
+<script src="../assets/cmodule/js/app/filters.js"></script>
+<script src="../assets/cmodule/js/app/app.js"></script>
+<style ng-bind-html="custom_styles"></style></body>
+
+<!-- Mirrored from westglobalcourier.com/livechat/index.php/login by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Dec 2017 14:01:16 GMT -->
+</html>
